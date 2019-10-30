@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/shaking1"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking2"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking3"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking4"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking5"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking6"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking7"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking8"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking9"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking10"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking11"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking12"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking13"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking14"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking15"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking16"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking17"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking18"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking19"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking20"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking21"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking22"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking23"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking24"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking25"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking26"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking27"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking28"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking29"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking30"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking31"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking32"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking33"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking34"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking35"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking36"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/shaking37"
+        android:duration="100" />
+
+</animation-list>
+

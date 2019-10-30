@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_effect">
+        <item>kick</item>
+        <item>snare</item>
+        <item>tom</item>
+        <item>bubble</item>
+    </string-array>
+</resources>

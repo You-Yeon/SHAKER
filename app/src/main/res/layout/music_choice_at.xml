@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:background="#FFFFE0A8">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/mu_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/vertical_ms"/>
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:padding="4dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/Linear"
+        app:layout_constraintStart_toStartOf="@+id/Linear"
+        android:background="#FFFF9A2B"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="70dp"
+        android:text="ID : a123456789"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/Linear"
+        app:layout_constraintStart_toEndOf="@+id/profile" />
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="335dp"
+        android:layout_height="470dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFCF7D"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/all"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="ALL"
+                android:background="#FFFFDAAA"/>
+            <Button
+                android:id="@+id/fav"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="FAV"
+                android:background="#FFFFEDD2"
+                android:layout_marginRight="6dp"/>
+
+            <EditText
+                android:id= "@+id/Searching"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:paddingLeft="10dp"
+                android:hint="Search"
+                android:background="@drawable/search"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/search_icon"
+                />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <!--<Button-->
+            <!--android:id="@+id/get_music"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:textColor="#FFFFFFFF"-->
+            <!--android:background="#FFFFA937"-->
+            <!--android:text=" add music" />-->
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        app:layout_constraintEnd_toEndOf="@+id/Linear"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:srcCompat="@drawable/setting" />
+
+
+</android.support.constraint.ConstraintLayout>

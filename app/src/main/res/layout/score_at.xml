@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/score_back">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="407dp"
+        android:layout_height="303dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#AAFFD78F"
+        android:stretchColumns="0,1,2,3"
+        app:layout_constraintEnd_toStartOf="@+id/Ranking"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Ranking">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#88FFE0A8">
+
+            <ImageView
+                android:id="@+id/Score"
+                android:layout_width="129dp"
+                android:layout_height="match_parent"
+                android:layout_span="1"
+                app:srcCompat="@drawable/score" />
+
+            <TextView
+                android:id="@+id/Score_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:text="0000000"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/Perfect"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/perfect" />
+
+            <TextView
+                android:id="@+id/Perfect_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/Great"
+                android:layout_width="103dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/great" />
+
+            <TextView
+                android:id="@+id/Great_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/Good"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/good" />
+
+            <TextView
+                android:id="@+id/Good_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/Cool"
+                android:layout_width="103dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/cool" />
+
+            <TextView
+                android:id="@+id/Cool_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/Bad"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/bad" />
+
+            <TextView
+                android:id="@+id/Bad_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/Miss"
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/miss" />
+
+            <TextView
+                android:id="@+id/Miss_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/Combo"
+                android:layout_width="223dp"
+                android:layout_height="match_parent"
+                android:layout_span="2"
+                app:srcCompat="@drawable/combo" />
+
+            <ImageView
+                android:id="@+id/Accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                app:srcCompat="@drawable/accuracy" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Combo_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:text="000x"
+                android:textColor="#FFFFFFFF"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/Accuracy_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:text="00.00%"
+                android:textColor="#FFFFFFFF"
+                android:textSize="35sp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/Ranking"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/racking" />
+
+    <ImageView
+        android:id="@+id/Ranking_2"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ranking"
+        app:srcCompat="@drawable/ss" />
+
+    <Button
+        android:id="@+id/RETRY"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/score_effect"
+        android:text="RETRY"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/BACK"
+        app:layout_constraintEnd_toEndOf="@+id/BACK"
+        app:layout_constraintTop_toBottomOf="@+id/Ranking_2"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <Button
+        android:id="@+id/BACK"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/score_effect"
+        android:text="BACK TO MENU"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintStart_toEndOf="@+id/tableLayout" />
+</android.support.constraint.ConstraintLayout>
