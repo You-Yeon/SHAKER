@@ -15,7 +15,7 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
    - 아이디 중복 체크
    - 자동 로그인  
    
-      ![sound](https://user-images.githubusercontent.com/44610250/69225238-545a0200-0bc1-11ea-8ef2-750fc9d1ba27.gif)
+      ![auto_login](https://user-images.githubusercontent.com/44610250/69226750-05619c00-0bc4-11ea-957a-d7635de209ea.gif)
    <hr/>
 
 * ### 노래 리스트
@@ -71,4 +71,6 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
       + 중간에 한번이라도 MISS 판정이 나면 다시 디폴트 상태로 변함.
 
    - 5개의 버튼을 누르면 
-   버튼 위쪽으로 하얗게 이미지 효과 + 효과음 + 버튼 눌림 이미지 전환
+   버튼 위쪽으로 하얗게 이미지 효과 + 효과음 + 버튼 눌림 이미지 전환  
+
+      [![Shaker_capture](https://user-images.githubusercontent.com/44610250/69227329-fe875900-0bc4-11ea-99da-2c10ee502b2a.png)](https://www.youtube.com/watch?v=9rA02drsse4&t=4s)
