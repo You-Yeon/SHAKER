@@ -25,8 +25,6 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
    - 제목과 아티스트 수정
    - 제목 검색 기능
    - 즐겨찾기 추가 및 삭제 기능  
-   
-      ![music_list](https://user-images.githubusercontent.com/44610250/69228566-237ccb80-0bc7-11ea-8cb1-484254e04e78.gif)
    <hr/>
 
 * ### 설정
