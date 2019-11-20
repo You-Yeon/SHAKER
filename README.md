@@ -9,6 +9,12 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
 리듬게임은 5Key로 되어있으며 노래마다 3개의 난이도로 구성되어있습니다.  
 *( 모든 노래는 저작권이 없는 NCS노래입니다. )*
 
+:computer: Developerment skill
+------------
+- API : Firebase
+- 언어 : Java
+- IDE : AndroidStudio  
+
 :musical_keyboard: Description
 -----------
 * ### 회원가입 / 로그인
