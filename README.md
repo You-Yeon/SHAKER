@@ -26,7 +26,7 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
    - 제목 검색 기능
    - 즐겨찾기 추가 및 삭제 기능  
    
-      ![sound](https://user-images.githubusercontent.com/44610250/69225238-545a0200-0bc1-11ea-8ef2-750fc9d1ba27.gif)
+      ![music_list](https://user-images.githubusercontent.com/44610250/69228566-237ccb80-0bc7-11ea-8cb1-484254e04e78.gif)
    <hr/>
 
 * ### 설정
@@ -72,5 +72,6 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
 
    - 5개의 버튼을 누르면 
    버튼 위쪽으로 하얗게 이미지 효과 + 효과음 + 버튼 눌림 이미지 전환  
-
+   
+      *( 이미지를 클릭하면 유튜브로 넘어갑니다. )*
       [![Shaker_capture](https://user-images.githubusercontent.com/44610250/69227329-fe875900-0bc4-11ea-99da-2c10ee502b2a.png)](https://www.youtube.com/watch?v=9rA02drsse4&t=4s)
