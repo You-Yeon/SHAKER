@@ -1,6 +1,6 @@
 SHAKER
 =============
-> 노래에 맞춰서 내려오는 노트를 맞추는 게임 어플입니다.
+> 노래에 맞춰서 내려오는 노트를 맞추는 리듬게임입니다.
 
 📝 Introduction
 ------------
@@ -13,7 +13,10 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
 -----------
 * ### 회원가입 / 로그인
    - 아이디 중복 체크
-   - 자동 로그인 
+   - 자동 로그인  
+   
+      ![sound](https://user-images.githubusercontent.com/44610250/69225238-545a0200-0bc1-11ea-8ef2-750fc9d1ba27.gif)
+   <hr/>
 
 * ### 노래 리스트
    - 한번 클릭시 해당 노래 재생
@@ -21,23 +24,35 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
    - 난이도 화면으로 이동시에 노래의 베이스부분이 증폭되는 이퀄라이저 효과.
    - 제목과 아티스트 수정
    - 제목 검색 기능
-   - 즐겨찾기 추가 및 삭제 기능
+   - 즐겨찾기 추가 및 삭제 기능  
+   
+      ![sound](https://user-images.githubusercontent.com/44610250/69225238-545a0200-0bc1-11ea-8ef2-750fc9d1ba27.gif)
+   <hr/>
 
 * ### 설정
    - 노래 볼륨 설정
    - 터치 효과음 볼륨 설정
-   - 터치 효과음 종류 변경
+   - 터치 효과음 종류 변경  
+   
+      ![sound](https://user-images.githubusercontent.com/44610250/69225238-545a0200-0bc1-11ea-8ef2-750fc9d1ba27.gif)
+   <hr/>
 
 * ### 난이도 / 기록
    - 난이도 한번 클릭시 해당 기록이 나옴.
    - 난이도 두번 클릭시 해당 비트맵으로 게임 시작.
    - 기록은 점수 순서로 자동 정렬.
-   - 기록 삭제 기능.
+   - 기록 삭제 기능.  
+   
+      ![record](https://user-images.githubusercontent.com/44610250/69225520-e6faa100-0bc1-11ea-95e2-0c0806756fc1.gif)
+   <hr/>
 
 * ### 게임 로딩화면
    - 가속도 센서를 활용.
    - 핸드폰의 Z축과 X축 사이 값이 45 이상이면 LANDSCAPE
-   - 핸드폰의 Z축과 X축 사이 값이 -45 이하일때 REVERSE_LANDSCAPE
+   - 핸드폰의 Z축과 X축 사이 값이 -45 이하일때 REVERSE_LANDSCAPE  
+   
+      ![loading (1)](https://user-images.githubusercontent.com/44610250/69226339-54f39800-0bc3-11ea-8986-d208ae74957b.gif)
+   <hr/>
 
 * ### 게임
    - 실시간 점수 계산
