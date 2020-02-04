@@ -12,6 +12,7 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
 :computer: Developerment skill
 ------------
 - API : Firebase
+- 운영체제 : Android
 - 언어 : Java
 - IDE : AndroidStudio  
 
