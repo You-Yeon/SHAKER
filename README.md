@@ -53,8 +53,8 @@ SHAKER는 가속도센서를 이용한 리듬게임입니다.
 
 * ### 게임 로딩화면
    - 가속도 센서를 활용.
-   - 핸드폰의 Z축과 X축 사이 값이 45 이상이면 LANDSCAPE
-   - 핸드폰의 Z축과 X축 사이 값이 -45 이하일때 REVERSE_LANDSCAPE  
+   - 핸드폰의 Z축과 X축 사이 값이 45° 이상이면 LANDSCAPE
+   - 핸드폰의 Z축과 X축 사이 값이 -45° 이하일때 REVERSE_LANDSCAPE  
    
       ![loading(1)](https://user-images.githubusercontent.com/44610250/69229210-625f5100-0bc8-11ea-8a3e-ec41819d415d.gif)
    <hr/>
